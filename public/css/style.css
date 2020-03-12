@@ -1,0 +1,94 @@
+/*
+Color de nav : #6E7C72
+Color botones de nav: #147270
+Color boton login nav: #019597
+Color botones section #0098A7
+*/
+.btn-ng{
+    background: #147270;
+}
+/* HEADER */
+.nav-ng{
+    background: #6E7C72;
+}
+.img-logo{
+    width: 200px;
+    height: auto;
+}
+.logo-user{
+    /*margin-right: 70px;*/
+    width: 100px;
+    height: auto;
+    float: right;
+}
+.btn-nav{
+    background: #147270;
+    font-size: 1em;
+    color: white;
+}
+.a-nav:hover{
+    color: #fff;
+}
+
+/* SECTION */
+.btn-section{
+    background: #0098A7;
+    font-size: 2em;
+}
+.bg-form{
+    background: #0098A7;
+}
+.ico-buscar{
+    width: 55px;
+    height: auto;
+}
+/* .errores{ 
+     -webkit-transition: opacity 3s ease-in-out;
+    -moz-transition: opacity 3s ease-in-out;
+    -ms-transition: opacity 3s ease-in-out;
+    -o-transition: opacity 3s ease-in-out;
+     opacity: 1; 
+     visibility: visible;
+  opacity: 1;
+  transition: opacity 2s linear
+} */
+@-webkit-keyframes errores {
+    0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+ }
+ 
+ @keyframes errores {
+    0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
+ }
+ 
+ .errores {
+    animation: fadeIn ease 10s;
+    -webkit-animation: fadeIn ease 10s;
+    -moz-animation: fadeIn ease 10s;
+    -o-animation: fadeIn ease 10s;
+    -ms-animation: fadeIn ease 10s;
+ }
+/* CLIENTES */
+
+
+/* TRABAJADORES */
+.buscar-trabajadores,.buscar-proveedores{
+    margin-left: 30%;
+}
+.btn-todown{
+    background: #0098A7;
+    margin-top: 2%;
+    
+    height: 40px;
+}
+
+/* PROVEEDORES */
